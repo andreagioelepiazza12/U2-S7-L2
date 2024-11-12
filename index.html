@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form di Registrazione</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="saved-name" id="savedName"></div>
+        <input type="text" id="nameInput" placeholder="Inserisci il tuo nome">
+        <button onclick="saveName()">Salva</button>
+        <button onclick="removeName()">Rimuovi</button>
+    </div>
+
+
+    <div class="container">
+        <p>Tempo trascorso: </p>
+        <p id="counter">0</p> secondi
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
